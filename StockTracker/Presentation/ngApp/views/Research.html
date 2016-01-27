@@ -1,0 +1,17 @@
+﻿
+    <div class="search search-{{search ? 'flex-start' : 'center'}}">
+        <input type="text" placeholder="Search" ng-model="search" />
+
+    </div>
+
+<ul>
+    <li ng-repeat="stock in controller.stocks">
+        {{stock.ticker}}
+        {{stock.name}}
+        {{stock.price}}
+        {{stock.price - stock.openPrice}}
+
+
+    </li>
+</ul>
+

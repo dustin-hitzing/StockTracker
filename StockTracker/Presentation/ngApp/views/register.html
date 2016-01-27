@@ -1,0 +1,13 @@
+﻿<div>
+
+    <form class="vertical-center form-group" ng-submit="controller.register(user)">
+        <h1>Stock Tracker 9001</h1>
+        <input placeholder="Username" class="form-control" ng-model="user.userName" />
+        <input placeholder="Email" class="form-control" ng-model="user.email" />
+        <input type="password" placeholder="Password" class="form-control" ng-model="user.password" />
+        <input type="password" placeholder="Confirm Password" class="form-control" ng-model="user.confirmPassword" />
+        <p>Already have an account? <a href="#/login">Sign In.</a></p>
+        <input type="submit" class="btn btn-success" value="Register" />
+        
+    </form>
+</div>
